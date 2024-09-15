@@ -1,5 +1,5 @@
-import { googleOAuth } from "@/auth";
-import { lucia } from "@/lib/auth";
+
+import { googleOAuth, lucia } from "@/lib/auth";
 import db from "@/lib/db";
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
