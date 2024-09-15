@@ -1,0 +1,330 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+ 
+
+  @font-face {
+    font-family: 'a-song-for-jennifer-bold';
+    src: url('../app/lib/fonts/a-song-for-jennifer-bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'a-song-for-jennifer';
+    src: url('../app/lib/fonts/a-song-for-jennifer.ttf');
+  }
+/*   
+  @font-face {
+    font-family: 'angelina';
+    src: url('../app/lib/fonts/angelina.TTF');
+  }
+   */
+  @font-face {
+    font-family: 'apalu';
+    src: url('../app/lib/fonts/Apalu.ttf');
+  }
+  
+  @font-face {
+    font-family: 'a-typewriter-for-me';
+    src: url('../app/lib/fonts/A-Typewriter-For-Me.ttf');
+  }
+  
+  /* @font-face {
+    font-family: 'dancing-script-regular';
+    src: url('../../app/lib/fonts/DancingScript-Regular.ttf');
+  }
+   */
+  @font-face {
+    font-family: 'data-latin';
+    src: url('../app/lib/fonts/data-latin.ttf');
+  }
+  
+  @font-face {
+    font-family: 'data-unifon';
+    src: url('../app/lib/fonts/data-unifon.ttf');
+  }
+  
+  @font-face {
+    font-family: 'embossed-germanica';
+    src: url('../app/lib/fonts/Embossed-Germanica.ttf');
+  }
+  
+  @font-face {
+    font-family: 'fluted-germanica';
+    src: url('../app/lib/fonts/Fluted-Germanica.ttf');
+  }
+  
+  @font-face {
+    font-family: 'glass-houses';
+    src: url('../app/lib/fonts/Glass-Houses.ttf');
+  }
+  
+  @font-face {
+    font-family: 'karma-future';
+    src: url('../app/lib/fonts/Karma-Future.ttf');
+  }
+  
+  @font-face {
+    font-family: 'metalord';
+    src: url('../app/lib/fonts/METALORD.TTF');
+  }
+  
+  @font-face {
+    font-family: 'national-cartoon';
+    src: url('../app/lib/fonts/National-Cartoon.ttf');
+  }
+  
+  @font-face {
+    font-family: 'oblivious-font';
+    src: url('../app/lib/fonts/Oblivious-Font.ttf');
+  }
+  
+
+  @font-face {
+    font-family: 'chopic';
+    src: url('../app/lib/fonts/Chopic.ttf');
+  }
+
+  @font-face {
+    font-family: 'digitalts-plum';
+    src: url('../app/lib/fonts/Digitalts-Plum.ttf');
+  }
+  
+  @font-face {
+    font-family: 'ds-mysticora';
+    src: url('../app/lib/fonts/Ds-Mysticora.ttf');
+  }
+  @font-face {
+    font-family: 'grim-reaper';
+    src: url('../app/lib/fonts/Grim-Reaper.ttf');
+  }
+  @font-face {
+    font-family: 'kg-happy';
+    src: url('../app/lib/fonts/Kg-Happy.ttf');
+  }
+
+  @font-face {
+    font-family: 'nasa';
+    src: url('../app/lib/fonts/Nasa.ttf');
+  }
+
+  @font-face {
+    font-family: 'quite-magical-regular';
+    src: url('../app/lib/fonts/Quite-Magical-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'roughen-corner-regular';
+    src: url('../app/lib/fonts/Roughen-Corner-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'sundiary';
+    src: url('../app/lib/fonts/Sundiary.ttf');
+  }
+  @font-face {
+    font-family: 'vacation-postcard';
+    src: url('../app/lib/fonts/Vacation-Postcard.ttf');
+  }
+  @font-face {
+    font-family: 'zibriqriq';
+    src: url('../app/lib/fonts/Zibriqriq.ttf');
+  }
+  @font-face {
+    font-family: 'chiret-regular';
+    src: url('../app/lib/fonts/Chiret-Regular.ttf');
+  }
+
+  
+  @layer base {
+    :root {
+      --background: 8 10 14; /* deep gray background */
+      --foreground: 230 230 240; /* light gray foreground */
+      --primary: 140 70 180; /* light-fading purple primary color */
+      --primary-foreground: 240 240 250; /* light text on primary */
+      --border: 25 25 30; /* darker gray border */
+      --input: 25 25 30; /* matching input background */
+      --ring: 90 80 140; /* slightly muted purple for focus rings */
+      --secondary: 30 30 35; /* dark secondary elements */
+      --secondary-foreground: 160 130 230; /* light purple for secondary text */
+      --destructive: 160 30 30; /* dark red for destructive actions */
+      --destructive-foreground: 250 240 240; /* light text on destructive elements */
+      --muted: 35 35 40; /* muted gray for subdued elements */
+      --muted-foreground: 150 140 200; /* faded purple for muted text */
+      --accent: 30 30 40; /* dark accent color */
+      --accent-foreground: 240 240 245; /* light text on accent */
+      --popover: 20 20 25; /* darker popover background */
+      --popover-foreground: 230 230 240; /* light text in popovers */
+      --card:15 12 20; /* deep gray card background */
+      --card-foreground: 245 245 250; /* light card text */
+      --radius: 0.5rem; /* keep the same border radius */
+    }
+    
+    .dark {
+      --background: 36 35 51; /* dark mode background */
+      --foreground: 252 252 252; /* dark mode foreground */
+      --primary: 255 182 193; /* light magenta primary color remains the same */
+      --primary-foreground: 0 0 0;
+      --border: 38 38 38;
+      --input: 38 38 38;
+      --ring: 212 212 212;
+      --secondary: 38 38 38;
+      --secondary-foreground: 252 252 252;
+      --destructive: 143 20 20;
+      --destructive-foreground: 252 252 252;
+      --muted: 38 38 38;
+      --muted-foreground: 163 163 163;
+      --accent: 38 38 38;
+      --accent-foreground: 252 252 252;
+      --popover: 10 10 10;
+      --popover-foreground: 252 252 252;
+      --card: 10 10 10;
+      --card-foreground: 252 0 0;
+      --radius: 0.5rem;
+    }
+    
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground font-sans overflow-clip ;
+      
+    }
+  }
+
+
+
+ 
+
+
+  .draggable {
+     -webkit-user-drag: inherit;
+    /* user-drag: none; Others */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .image-element {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* the below is a group of styles for canvas elements  */
+  .triangle {
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -10;
+  }
+
+  .ellipse {
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: ellipse(50% 50% at 50% 50%);
+    z-index: -10;
+  }
+
+  .pentagon{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    z-index: -10;
+  }
+  .hexagon{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -10;
+  }
+
+  .octagon{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(29% 0%, 71% 0%, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0% 71%, 0% 29%);
+    z-index: -10;
+  }
+
+
+  .trapazoid{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+    z-index: -10;
+  }
+
+  .star{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    z-index: -10;
+  }
+  .heart{
+    width: 300px;
+    height: 300px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    z-index: -10;
+  }
+
+
+  .no-clip {
+    
+    clip-path: inset(-50px -50px -50px -50px);
+}
+.transformer {
+  position: absolute;
+  border: 1px dashed blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(49, 47, 71); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(38, 36, 59, 0.877); /* Color of the scrollbar thumb when hovered */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent background for the scrollbar track */
+}
+
+/* Custom Scrollbar for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar width */
+  scrollbar-color: rgb(66, 62, 99) transparent; /* Color of the scrollbar thumb and track */
+}
