@@ -874,7 +874,7 @@ export const Sidebar = () => {
                   No Parametric Controls
                 </h1>
                 <p className="text-center">
-                  You haven't selected any canvas element yet. Select a canvas
+                  You haven &apos t selected any canvas element yet. Select a canvas
                   element to set its parametric properties.
                 </p>
               </div>
