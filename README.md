@@ -40,5 +40,5 @@ Clone the repository:
 git clone https://github.com/your-username/kanvas.git
 cd kanvas
 
-
-now before you go , please star this repo if you liked the project . Thank you . 
+```
+**now before you go , please star this repo if you liked the project . Thank you . **
