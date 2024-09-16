@@ -33,7 +33,7 @@ export default function SignUpPage() {
     const res = await signUp(data);
     if (res.success) {
       // alert("signup successful")
-      router.push("/designer")
+      router.push("/")
     } else {
       alert(res.error);
     }

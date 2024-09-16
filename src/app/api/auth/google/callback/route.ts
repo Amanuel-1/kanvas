@@ -66,7 +66,7 @@ try {
 
 
   return new Response("Redirecting...", {status:302,headers:{
-    Location: "/designer"
+    Location: "/"
   }})
 }
 catch (error) {

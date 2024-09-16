@@ -6,7 +6,8 @@ export default function GoogleOAuthButton () {
     return (
         <div className="w-full">
             <Button className="flex w-full" size={"lg"} onClick={async() => {
-               const result = await generateGoogleConsentUrl()
+               const result = await generateGoogleConsentUrl() 
+               alert(result?.url)
                if(result?.url){
                      window.location.href = result.url.toString()
                }
