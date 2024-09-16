@@ -2,7 +2,8 @@
 
 Welcome to **Kanvas**, lightweight, and fully customizable canvas app built with cutting-edge technologies! 🚀 Whether you're a designer, developer, or someone passionate about creative web apps, Kanvas is here to help you design beautiful and interactive **div-based** canvases.
 
-![image](https://github.com/user-attachments/assets/59f18a40-908f-4d81-bcbc-913f7ea4bccd)
+![image](https://github.com/user-attachments/assets/c6f114c9-70cb-408c-931d-4566b0063108)
+
 
 But it doesn't stop there! **Kanvas** is easily extendable, making it a versatile tool for designing not only div elements but also for integrating with popular libraries like **Konva** or **Fabric**.
 
@@ -15,7 +16,7 @@ But it doesn't stop there! **Kanvas** is easily extendable, making it a versatil
 - **Customizable**: Easily configure and adapt the template to your needs or scale it for your projects.
 - **State Persistence**: Using Supabase for database management ensures that your designs are saved and retrievable with ease.
 - 
-![image](https://github.com/user-attachments/assets/f1536874-54f2-4af8-9a44-0eab643a480e)
+  ![image](https://github.com/user-attachments/assets/a677d175-5da5-45e8-95e1-d0c858c99d98)
 
 ## 📦 Tech Stack
 
@@ -26,8 +27,10 @@ But it doesn't stop there! **Kanvas** is easily extendable, making it a versatil
 - **Shadcn**: Beautiful UI components built with Radix UI.
 - **TailwindCSS**: Rapid styling with utility-first CSS.
 - **Zustand**: A small, fast state-management library with a minimal API.
-- 
-![image](https://github.com/user-attachments/assets/0e397b4a-ee70-4c7c-aa2e-4a5f9efd6e92)
+
+  ![image](https://github.com/user-attachments/assets/eb5a5fbe-db10-4b18-bc2d-eb8c31f3f560)
+
+
 
 ## 🚀 Get Started
 
