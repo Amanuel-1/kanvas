@@ -24,12 +24,12 @@ export async function generateMetadata(
     description: "Welcome to Kanvas, a lightweight and fully customizable canvas app built with cutting-edge technologies! 🚀 Whether you're a designer, developer, or someone passionate about creative web apps, Kanvas is here to help you design beautiful and interactive div-based canvases.",
     authors: [{ 
       name: "Amanuel Garomsa", 
-      // url: "https://www.linkedin.com/in/amanuel-garomsa-36ba79213/" 
+      url: "../opengraph.png" 
     }],
     creator: "Amanuel Garomsa",
     keywords: ["Kanvas", "Canvas App", "Next.js", "TailwindCSS", "Zustand", "Supabase", "Web Design"],
     openGraph: {
-      images: ["<Insert image URL for Kanvas here>"],
+      images: ["../opengraph.png" ],
     },
     twitter: {
       card: "summary_large_image",
